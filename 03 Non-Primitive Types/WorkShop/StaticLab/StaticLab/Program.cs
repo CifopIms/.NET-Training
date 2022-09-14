@@ -78,6 +78,9 @@ namespace StaticLab
             var numbers = new int[] { 1, 2, 3 };
             var list = string.Join(",", numbers);
 
+            var input = "1,2.3";
+            //var splitResult = input.Split(',');
+            var splitResult = input.Split(new char[] {',','.'});
             ////Enums
             var monday = Day.Monday;
             System.Console.WriteLine((byte)monday);
